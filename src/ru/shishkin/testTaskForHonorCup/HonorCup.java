@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-public class Application {
+public class HonorCup {
     public static void main(String[] args) {
         char[][] matrix = {
                 {'0', '0', 'X', '0', '0', 'X', '0', 'B'},
@@ -17,10 +17,10 @@ public class Application {
                 {'0', '0', '0', '0', '0', '0', '0', '0'},
                 {'A', '0', '0', '0', '0', '0', '0', '0'}};
 
-        System.out.println(findthelenght(matrix));
+        System.out.println(findTheLenght(matrix));
     }
 
-    public static int findthelenght(char[][] matrix) {
+    private static int findTheLenght(char[][] matrix) {
         int s_row = 0, s_col = 0;
         boolean flag = false;
         for (s_row = 0; s_row < matrix.length; s_row++) {
@@ -33,7 +33,7 @@ public class Application {
         return shortestPath(matrix, s_row, s_col);
     }
 
-    public static int shortestPath(char[][] matrix, int s_row, int s_col) {
+    private static int shortestPath(char[][] matrix, int s_row, int s_col) {
         int count = 0;
         Queue<int[]> nextToVisit = new LinkedList<>();
         nextToVisit.offer(new int[]{s_row, s_col});

@@ -1,13 +1,12 @@
 package ru.shishkin.testTaskForInterview1;
 
 public class TheThirdTestCase {
-
     TheThirdTestCase(double a, double b, double c, double afterEquals, boolean meaning) {
-        System.out.println(express_meaning(a, b, c, afterEquals, meaning));
+        System.out.println(expressMeaning(a, b, c, afterEquals, meaning));
     }
 
     // a*x2+b*x+c=afterEquals
-    private String express_meaning(double a, double b, double c, double afterEquals, boolean meaning) {
+    private String expressMeaning(double a, double b, double c, double afterEquals, boolean meaning) {
         if (meaning) {
             if (a == 0) {
                 return "�����: ������ ��������, a = 0";

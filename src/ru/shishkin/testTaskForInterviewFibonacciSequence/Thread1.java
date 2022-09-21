@@ -1,14 +1,12 @@
 package ru.shishkin.testTaskForInterviewFibonacciSequence;
 
 public class Thread1 extends Thread {
-
     public Thread1(String name) {
         Thread t = new Thread(this, name);
         t.start();
     }
 
     public void run() {
-
         int mas[] = new int[100];
 
         mas[0] = 0;

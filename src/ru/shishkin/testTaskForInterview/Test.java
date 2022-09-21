@@ -1,7 +1,6 @@
 package ru.shishkin.testTaskForInterview;
 
 public class Test {
-
     public Test() {
         int x = 10;
         int y = 10;
@@ -24,7 +23,6 @@ public class Test {
     }
 
     public static int countWords(String s) {
-
         s.replace("  ", " ");
         String mas[] = s.trim().split(" ");
         System.out.println(mas);
@@ -42,7 +40,6 @@ public class Test {
     }
 
     public static int[] removeDuplicates(int[] a) {
-
         int[] bint = new int[a.length];
         int k = 0;
 

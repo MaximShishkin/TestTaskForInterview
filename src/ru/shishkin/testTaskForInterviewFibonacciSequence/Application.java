@@ -1,9 +1,8 @@
 package ru.shishkin.testTaskForInterviewFibonacciSequence;
 
 public class Application {
-
     public static void main(String[] args) {
-        chislafibonachi();
+        chislaFibonachi();
     }
 
     static void sto() {
@@ -14,7 +13,7 @@ public class Application {
         }
     }
 
-    static void chislafibonachi() {
+    static void chislaFibonachi() {
         long time = System.nanoTime();
 
         double mas[] = new double[101];

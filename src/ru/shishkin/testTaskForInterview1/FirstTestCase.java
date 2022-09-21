@@ -1,7 +1,6 @@
 package ru.shishkin.testTaskForInterview1;
 
 public class FirstTestCase {
-
     FirstTestCase(double a, double b, double c, double afterEquals) {
         System.out.println(solutionOfAQuadraticEquation(a, b, c, afterEquals));
     }

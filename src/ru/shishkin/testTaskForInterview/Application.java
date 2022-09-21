@@ -1,7 +1,6 @@
 package ru.shishkin.testTaskForInterview;
 
-public class Start {
-
+public class Application {
     private int x;
     private int b = 10;
     private int a = 14;
@@ -15,7 +14,7 @@ public class Start {
 
     void t() {
         try {
-            Start out = new Start();
+            Application out = new Application();
 
             System.out.println(out.x + out.b);
             System.out.println(out.s0 + out.x);
