@@ -1,4 +1,4 @@
-package ru.shishkin.testTasks.testTaskForInterview;
+package ru.shishkin.testTasks.interview;
 
 public class Test {
     public Test() {

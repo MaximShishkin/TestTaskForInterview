@@ -1,4 +1,4 @@
-package ru.shishkin.testTasks.TaskForHonorCup;
+package ru.shishkin.testTasks.honorCup;
 
 import java.util.HashSet;
 import java.util.LinkedList;

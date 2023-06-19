@@ -1,4 +1,4 @@
-package ru.shishkin.testTasks.testTaskForInterview;
+package ru.shishkin.testTasks.interview;
 
 public final class Node {
     private int count;

@@ -1,4 +1,4 @@
-package ru.shishkin.testTasks.testTaskFibonacciSequence;
+package ru.shishkin.testTasks.fibonacciSequence;
 
 public class Thread1 extends Thread {
     public Thread1(String name) {

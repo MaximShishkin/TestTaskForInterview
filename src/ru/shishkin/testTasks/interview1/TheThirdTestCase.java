@@ -1,4 +1,4 @@
-package ru.shishkin.testTasks.testTaskForInterview1;
+package ru.shishkin.testTasks.interview1;
 
 public class TheThirdTestCase {
     TheThirdTestCase(double a, double b, double c, double afterEquals, boolean meaning) {
