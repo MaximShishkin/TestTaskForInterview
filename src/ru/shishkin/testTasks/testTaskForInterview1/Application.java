@@ -1,4 +1,4 @@
-package ru.shishkin.testTaskForInterview1;
+package ru.shishkin.testTasks.testTaskForInterview1;
 
 public class Application {
     public static void main(String[] args) {

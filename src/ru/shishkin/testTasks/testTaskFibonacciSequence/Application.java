@@ -1,4 +1,4 @@
-package ru.shishkin.testTaskForInterviewFibonacciSequence;
+package ru.shishkin.testTasks.testTaskFibonacciSequence;
 
 public class Application {
     public static void main(String[] args) {
