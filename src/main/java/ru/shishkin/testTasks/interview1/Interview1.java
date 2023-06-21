@@ -1,7 +1,7 @@
 package ru.shishkin.testTasks.interview1;
 
-public class Application {
-    public static void main(String[] args) {
+public class Interview1 {
+    public Interview1() {
         // a = 2, b = 3, c = 1, afterEquals = 7
         FirstTestCase firstCase = new FirstTestCase(2, 3, 1, 7);
         // a = 1, b = 2, c = 0, afterEquals = 7

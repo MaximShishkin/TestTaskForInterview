@@ -7,6 +7,6 @@ public class Thread2 implements Runnable {
     }
 
     public void run() {
-        Application.sto();
+        FibonacciSequence.sto();
     }
 }

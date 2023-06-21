@@ -26,7 +26,6 @@ public class ConnectToDB {
                 }
                 rs.close();
                 stmt.close();
-
             } finally {
                 con.close();
             }

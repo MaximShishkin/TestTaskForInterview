@@ -22,7 +22,7 @@ public class ArrayListTest {
         al.remove("F");
         al.remove(2);
 
-        System.out.println( al.size());
+        System.out.println(al.size());
         System.out.println(al);
 
         String ia[] = new String[al.size()];

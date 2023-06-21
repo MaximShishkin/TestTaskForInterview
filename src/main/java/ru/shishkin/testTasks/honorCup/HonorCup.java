@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Set;
 
 public class HonorCup {
-    public static void main(String[] args) {
+    public HonorCup() {
         char[][] matrix = {
                 {'0', '0', 'X', '0', '0', 'X', '0', 'B'},
                 {'0', '0', 'X', '0', '0', 'X', '0', '0'},

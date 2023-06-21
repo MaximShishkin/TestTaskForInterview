@@ -13,7 +13,8 @@ public class PriorityQueueTest {
         adq.add("F");
         adq.add("F");
 
-        while (adq.peek() != null)
+        while (adq.peek() != null) {
             System.out.print(adq.poll() + " ");
+        }
     }
 }

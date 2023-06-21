@@ -1,20 +1,20 @@
 package ru.shishkin.testTasks.interview;
 
-public class Application {
+public class Interview {
     private int x;
     private int b = 10;
     private int a = 14;
     private String s0;
     private String s1 = "string";
 
-    public static void main(String[] args) {
+    public Interview() {
         int a[] = new int[]{2, 1, 4, 2, 3};
         new Test(a);
     }
 
     void t() {
         try {
-            Application out = new Application();
+            Interview out = new Interview();
 
             System.out.println(out.x + out.b);
             System.out.println(out.s0 + out.x);

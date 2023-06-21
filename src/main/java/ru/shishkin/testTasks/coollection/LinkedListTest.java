@@ -6,7 +6,7 @@ public class LinkedListTest {
     public LinkedListTest() {
         LinkedList<String> al = new LinkedList<String>();
 
-        System.out.println( al.size());
+        System.out.println(al.size());
 
         al.add("E");
         al.add("B");

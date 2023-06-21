@@ -1,7 +1,7 @@
 package ru.shishkin.testTasks.multithreading;
 
-public class Application {
-    public static void main(String[] args) {
+public class TestMultithreading {
+    public TestMultithreading() {
         System.out.println("Запускаем музыку во втором потоке");
         NewThread t = new NewThread("MyNewTread");
         System.out.println("Продолжаем выполнять какие-то действия в первом потоке");

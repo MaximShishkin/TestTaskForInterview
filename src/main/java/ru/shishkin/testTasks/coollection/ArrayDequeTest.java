@@ -12,7 +12,8 @@ public class ArrayDequeTest {
         adq.push("E");
         adq.push("F");
 
-        while (adq.peek() != null)
+        while (adq.peek() != null) {
             System.out.print(adq.pop() + " ");
+        }
     }
 }

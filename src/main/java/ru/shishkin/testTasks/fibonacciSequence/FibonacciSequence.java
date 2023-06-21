@@ -1,7 +1,7 @@
 package ru.shishkin.testTasks.fibonacciSequence;
 
-public class Application {
-    public static void main(String[] args) {
+public class FibonacciSequence {
+    public FibonacciSequence() {
         chislaFibonachi();
     }
 

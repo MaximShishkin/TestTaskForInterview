@@ -25,6 +25,6 @@ public class HashSetTest {
         String ia[] = new String[al.size()];
         ia = al.toArray(ia);
 
-        System.out.println( ia[0]);
+        System.out.println(ia[0]);
     }
 }
